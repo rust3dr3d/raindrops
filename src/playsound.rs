@@ -1,6 +1,6 @@
+use rodio::{Decoder, OutputStream, source::Source};
 use std::fs::File;
 use std::io::BufReader;
-use rodio::{Decoder, OutputStream, source::Source};
 
 
 // Play specified file on the Primary sound device
